@@ -1,0 +1,122 @@
+:root {
+    --container-width: 90%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #45434F;
+}
+
+section.page {
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    height: 100px;
+    background-color: white;
+    width: var(--container-width);
+    margin: 25px auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: fixed;
+    position:sticky;
+    top:0;
+}
+
+nav img {
+    height: 100px;
+    border-radius: 25px;
+}
+
+nav a {
+    align-items: center;
+    color: black;
+    font-size: 25pt;
+    text-decoration: none;
+}
+
+nav a.home {
+    color: #D01D1D;
+}
+
+section.page.one > div {
+    font-size: 40px;
+    /* margin-top: 50px; */
+    color: #D01D1D;
+    margin-left: 75px;
+}
+
+section.page.two > article > div.one {
+    text-align: justify;
+    font-size: 40px;
+    /* margin-top: 50px; */
+    color: #D01D1D;
+    margin-left: 75px;
+}
+
+section.page.two > article > div.two {
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+    margin-left: 75px;
+    margin-right: 500px;
+}
+
+section.page.two > article > div.box {
+    align-items: center;
+    float: right;
+    margin-right: 75px;
+}
+
+section.page.three > div.Tujuan {
+    text-align: center;
+    font-size: 40px;
+    color: #D01D1D;
+}
+
+section.page.three > div.arrow1 {
+    margin-top: 75px;
+    margin-left: 75px;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
+section.page.three > div.arrow2 {
+    margin-top: 25px;
+    margin-left: 75px;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
+section.page.three > div.arrow3 {
+    margin-top: 25px;
+    margin-left: 75px;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
+section.page.four > div.pilihan {
+    text-align: center;
+    font-size: 40px;
+    color: #D01D1D;
+}
